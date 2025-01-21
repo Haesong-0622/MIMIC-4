@@ -46,4 +46,10 @@ Evaluation indicators : AUC, Classification Matrix, RMSE
 ![image](https://github.com/user-attachments/assets/14e15cdb-a70b-459a-939f-64ade572583c)
 -------------------------------
 
+#### Preprocessing
+-------------------------------
+![image](https://github.com/user-attachments/assets/829742dd-5201-4994-b0e6-f6e792e0a4f3)
+-------------------------------
+
+![image](https://github.com/user-attachments/assets/ea7536ae-2fab-4959-8d57-8299d8d8f276)
 
