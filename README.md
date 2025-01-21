@@ -13,9 +13,7 @@ This is to develop a tool to help medical staff become aware of and respond appr
 #### Reason for Research Selection
 -------------------------------
 Potassium is an important electrolyte that plays an essential role in maintaining nerve and muscle function and heart rhythm.
-
 Recent studies have pointed out that an imbalance in potassium concentration can cause serious cardiovascular problems, which is a common risk factor in patients with chronic diseases such as acute renal failure, diabetes, and heart failure.
-
 Given such risks, early detection of changes in potassium concentration and proper management are critical to increasing patient survival rates, so we have developed algorithms to predict potassium concentration.
 -------------------------------
 
@@ -64,6 +62,18 @@ Evaluation indicators : AUC, Classification Matrix, RMSE
 (Missing value imputation in high-dimensional phenomic data: imputable or not, and how?)
 3. Data Quality Considerations:
 (Addressing missing values in routine health information system data: an evaluation of imputation methods using data from the Democratic Republic of the Congo during the COVID-19 pandemic)
+-------------------------------
+
+#### result
+-------------------------------
+1. Linear Regression : train(0.907) , test(0.834)
+2. Random Forest : train(1.0) , test(0.673)
+-------------------------------
+
+#### Discussion
+-------------------------------
+1. As the mimic-iv data is huge, we believe that a small number of patients is a failure factor when we reduce the number of patients.
+2. I think the model performance came out poorly because the pre-processing process was simplified.
 -------------------------------
 
 
