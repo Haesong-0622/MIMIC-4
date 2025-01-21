@@ -43,7 +43,7 @@ Evaluation indicators : AUC, Classification Matrix, RMSE
 
 #### Study population
 -------------------------------
-
+![image](https://github.com/user-attachments/assets/14e15cdb-a70b-459a-939f-64ade572583c)
 -------------------------------
 
 
