@@ -48,8 +48,22 @@ Evaluation indicators : AUC, Classification Matrix, RMSE
 
 #### Preprocessing
 -------------------------------
-![image](https://github.com/user-attachments/assets/829742dd-5201-4994-b0e6-f6e792e0a4f3)
+![image](https://github.com/user-attachments/assets/ea7536ae-2fab-4959-8d57-8299d8d8f276)
+1. Among the data, patient, medication, nursCharting, comorvbidity, and lab data are combined.
+2. categorical variables after removal continuous variables only leave it
+3. 0.01% of data the above missing values remove data you have
+4. 0.01% of data missing values below the data I have is replace with nearby values
+5. When analyzing the correlation less relevant remove Variables
 -------------------------------
 
-![image](https://github.com/user-attachments/assets/ea7536ae-2fab-4959-8d57-8299d8d8f276)
+#### Why is it 0.01 percent?
+-------------------------------
+1. Statistical Reliability:
+(Addressing missing values in routine health information system data: an evaluation of imputation methods using data from the Democratic Republic of the Congo during the COVID-19 pandemic)
+2. Difficulty with alternative methods:
+(Missing value imputation in high-dimensional phenomic data: imputable or not, and how?)
+3. Data Quality Considerations:
+(Addressing missing values in routine health information system data: an evaluation of imputation methods using data from the Democratic Republic of the Congo during the COVID-19 pandemic)
+-------------------------------
+
 
